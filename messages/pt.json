@@ -6,7 +6,17 @@
   "admin/richtextcustom.schema.properties.color.title": "Qual a cor do texto?",
   "admin/richtextcustom.schema.properties.tagHTML.title": "Qual tag HTML será exibida?",
   "admin/richtextcustom.schema.properties.tagHTML.description": "(a, p, h1, ...)",
+  "admin/richtextcustom.schema.properties.margin.title": "Qual a margem do texto?",
+  "admin/richtextcustom.schema.properties.margin.description": "Adicione a unidade. (px, rem, %)",
+  "admin/richtextcustom.schema.properties.textTransform.description": "Qual a variação da sua fonte?",
+  "admin/richtextcustom.schema.properties.weight.description": "Qual o peso da fonte?",
   "store/richtextcustom.topbar-track-back": "Rastrear pedido",
   "store/richtextcustom.topbar-whatsapp": "Whatsapp: (00) 99999-9999",
-  "store/richtextcustom.topbar-help": "Ajuda e suporte"
+  "store/richtextcustom.topbar-help": "Ajuda e suporte",
+  "store/richtextcustom.tipbar-title-1": "3X no cartão",
+  "store/richtextcustom.tipbar-description-1": "parcelamento",
+  "store/richtextcustom.tipbar-title-2": "Compre na loja",
+  "store/richtextcustom.tipbar-description-2": "e receba em casa",
+  "store/richtextcustom.tipbar-title-3": "Site 100% seguro",
+  "store/richtextcustom.tipbar-description-3": "confiança e segurança"
 }

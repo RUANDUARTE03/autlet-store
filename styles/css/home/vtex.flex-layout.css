@@ -1,7 +1,13 @@
+.flexRow--autlet-main-banners {
+display: flex;
+justify-content: center;
+}
+
 .flexRowContent--autlet-top-bar {
   justify-content: flex-end;
 }
 
+/* .flexRowContent--autlet-tipbar-home-content .stretchChildrenWidth, */
 .flexRowContent--autlet-top-bar .stretchChildrenWidth {
   margin: 0 20px;
 }
@@ -9,4 +15,26 @@
 .flexRow--autlet-main-banners :global(.vtex-store-components-3-x-container) {
   margin: 0;
   padding: 0;
+}
+
+.flexRowContent--autlet-tipbar-home-content {
+  margin: 40px 0;
+  justify-content: center;
+}
+
+.flexRow--autlet-tipbar-home-content :global(.vtex-store-components-3-x-container) {
+  max-width: 1000px;
+}
+
+.flexRow--tip-bar-item :global(.vtex-store-components-3-x-container) {
+  display: flex;
+  justify-content: center;
+}
+
+.flexRowContent--tip-bar-item {
+  justify-content: center;
+}
+
+.flexCol--tipbar-text-item {
+  margin-left: 16px;
 }

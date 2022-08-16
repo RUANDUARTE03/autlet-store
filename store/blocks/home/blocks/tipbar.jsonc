@@ -1,0 +1,154 @@
+{
+  "flex-layout.row#tipbar-home": {
+    "title": "Tip Bar Home",
+    "props": {
+      "blockClass": "autlet-tipbar-home-content"
+    },
+    "children": [
+      "flex-layout.row#tipbar-item1",
+      "flex-layout.row#tipbar-item2",
+      "flex-layout.row#tipbar-item3"
+    ]
+  },
+
+  // ITEM 1
+  "flex-layout.row#tipbar-item1": {
+    "title": "First Item",
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "tip-bar-item"
+    },
+    "children": ["image#card-tipbar", "flex-layout.col#tipbar-text-item1"]
+  },
+
+  "image#card-tipbar": {
+    "title": "Image Card 1",
+    "props": {
+      "blockClass": "tipbar-image",
+      "src": "assets/img/credit-card.png"
+    }
+  },
+
+  "flex-layout.col#tipbar-text-item1": {
+    "title": "Tip Bar Text Item 1",
+    "props": {
+      "blockClass": "tipbar-text-item"
+    },
+    "children": ["custom-rich-text#tipbar-title1", "custom-rich-text#tipbar-description1"]
+  },
+
+  "custom-rich-text#tipbar-title1": {
+    "title": "Title Card 1",
+    "props": {
+      "text": "store/richtextcustom.tipbar-title-1",
+      "color": "#666666",
+      "margin": "0px",
+      "size": "13px",
+      "textTransform": "uppercase",
+      "weight": "700"
+    }
+  },
+
+  "custom-rich-text#tipbar-description1": {
+    "title": "Description Card 1",
+    "props": {
+      "text": "store/richtextcustom.tipbar-description-1",
+      "color": "#666666",
+      "margin": "0px"
+    }
+  },
+
+  //ITEM 2
+  "flex-layout.row#tipbar-item2": {
+    "title": "Second Item",
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "tip-bar-item"
+    },
+    "children": ["image#card-tipbar2", "flex-layout.col#tipbar-text-item2"]
+  },
+
+  "image#card-tipbar2": {
+    "title": "Image Card 2",
+    "props": {
+      "blockClass": "tipbar-image",
+      "src": "assets/img/awesome-truck.png"
+    }
+  },
+
+  "flex-layout.col#tipbar-text-item2": {
+    "title": "Tip Bar Text Item 2",
+    "props": {
+      "blockClass": "tipbar-text-item"
+    },
+    "children": ["custom-rich-text#tipbar-title2", "custom-rich-text#tipbar-description2"]
+  },
+
+  "custom-rich-text#tipbar-title2": {
+    "title": "Title Card 2",
+    "props": {
+      "text": "store/richtextcustom.tipbar-title-2",
+      "color": "#666666",
+      "margin": "0px",
+      "size": "13px",
+      "textTransform": "uppercase",
+      "weight": "700"
+    }
+  },
+
+  "custom-rich-text#tipbar-description2": {
+    "title": "Description Card 2",
+    "props": {
+      "text": "store/richtextcustom.tipbar-description-2",
+      "color": "#666666",
+      "margin": "0px"
+    }
+  },
+
+  //ITEM 3
+  "flex-layout.row#tipbar-item3": {
+    "title": "Third Item",
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "tip-bar-item"
+    },
+    "children": ["image#card-tipbar3", "flex-layout.col#tipbar-text-item3"]
+  },
+
+  "image#card-tipbar3": {
+    "title": "Image Card 3",
+    "props": {
+      "blockClass": "tipbar-image",
+      "src": "assets/img/lock.png"
+    }
+  },
+
+  "flex-layout.col#tipbar-text-item3": {
+    "title": "Tip Bar Text Item 3",
+    "props": {
+      "blockClass": "tipbar-text-item"
+    },
+    "children": ["custom-rich-text#tipbar-title3", "custom-rich-text#tipbar-description3"]
+  },
+
+  "custom-rich-text#tipbar-title3": {
+    "title": "Title Card 3",
+    "props": {
+      "text": "store/richtextcustom.tipbar-title-3",
+      "color": "#666666",
+      "margin": "0px",
+      "size": "13px",
+      "textTransform": "uppercase",
+      "weight": "700"
+    }
+  },
+
+  "custom-rich-text#tipbar-description3": {
+    "title": "Description Card 3",
+    "props": {
+      "text": "store/richtextcustom.tipbar-description-3",
+      "color": "#666666",
+      "margin": "0px"
+    }
+  }
+}
