@@ -1,0 +1,11 @@
+{
+  "name": "autlet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "start": "vtex link --clean --verbose"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

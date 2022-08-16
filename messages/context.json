@@ -1,0 +1,12 @@
+{
+  "admin/richtextcustom.schema.title": "Rich Text Custom",
+  "admin/richtextcustom.schema.properties.text.title": "Qual o texto?",
+  "admin/richtextcustom.schema.properties.size.title": "Qual o tamanho do texto?",
+  "admin/richtextcustom.schema.properties.size.description": "Adicione a unidade. (px, rem, %)",
+  "admin/richtextcustom.schema.properties.color.title": "Qual a cor do texto?",
+  "admin/richtextcustom.schema.properties.tagHTML.title": "Qual tag HTML será exibida?",
+  "admin/richtextcustom.schema.properties.tagHTML.description": "(a, p, h1, ...)",
+  "store/richtextcustom.topbar-track-back": "Rastrear pedido",
+  "store/richtextcustom.topbar-whatsapp": "Whatsapp: (00) 99999-9999",
+  "store/richtextcustom.topbar-help": "Ajuda e suporte"
+}

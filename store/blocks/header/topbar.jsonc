@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#topbar": {
+    "title": "Top Bar Header",
+    "props": {
+      "blockClass": "autlet-top-bar",
+      "colSizing": "auto"
+    },
+    "children": [
+      "custom-rich-text#topbar-track-back",
+      "custom-rich-text#topbar-whatsapp",
+      "custom-rich-text#topbar-help"
+    ]
+  },
+
+  "custom-rich-text#topbar-track-back": {
+    "title": "Track Back Top Bar",
+    "props": {
+      "text": "store/richtextcustom.topbar-track-back",
+      "color": "#FFF"
+    }
+  },
+
+  "custom-rich-text#topbar-whatsapp": {
+    "title": "Whatsapp Top Bar",
+    "props": {
+      "text": "store/richtextcustom.topbar-whatsapp",
+      "color": "#FFF"
+    }
+  },
+
+  "custom-rich-text#topbar-help": {
+    "title": "Help me Top Bar",
+    "props": {
+      "text": "store/richtextcustom.topbar-help",
+      "color": "#FFF"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "react app",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-client": "^2.6.8",
+    "axios": "^0.19.2",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-apollo": "^3.1.5",
+    "react-dom": "^16.13.1",
+    "react-input-mask": "^2.0.4",
+    "react-intl": "4.5.0",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@apollo/react-testing": "^3.1.4",
+    "@vtex/test-tools": "^3.1.0",
+    "@types/jest": "^24.0.9",
+    "@types/marked": "^0.6.4",
+    "@types/node": "^11.10.0",
+    "@types/react": "^16.8.6",
+    "@vtex/tsconfig": "^0.4.4",
+    "vtex.native-types": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.native-types@0.7.4/public/@types/vtex.native-types",
+    "vtex.order-manager": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-manager@0.9.0/public/@types/vtex.order-manager"
+  },
+  "scripts": {
+    "lint": "tsc --noEmit && eslint --quiet --fix --ext ts,tsx .",
+    "test": "vtex-test-tools test"
+  },
+  "author": "Ruan Duarte",
+  "license": "ISC"
+}

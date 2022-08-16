@@ -1,0 +1,14 @@
+.paginationDotsContainer--autlet-main-banners {
+  margin-bottom: 16px;
+}
+
+.paginationDotsContainer--autlet-main-banners .paginationDot--autlet-main-banners {
+  background-color: transparent;
+  border: 1px solid #FFF;
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.paginationDotsContainer--autlet-main-banners .paginationDot--autlet-main-banners--isActive {
+  background-color: #FFF;
+}
