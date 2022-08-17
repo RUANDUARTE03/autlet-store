@@ -2,7 +2,8 @@
   "store.home": {
     "blocks": [
       "flex-layout.row#main-banner",
-			"flex-layout.row#tipbar-home"
+			"flex-layout.row#tipbar-home",
+      "flex-layout.row#banner"
     ]
   }
 }

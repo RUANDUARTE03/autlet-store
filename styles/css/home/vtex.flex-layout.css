@@ -1,13 +1,12 @@
 .flexRow--autlet-main-banners {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .flexRowContent--autlet-top-bar {
   justify-content: flex-end;
 }
 
-/* .flexRowContent--autlet-tipbar-home-content .stretchChildrenWidth, */
 .flexRowContent--autlet-top-bar .stretchChildrenWidth {
   margin: 0 20px;
 }
@@ -37,4 +36,63 @@ justify-content: center;
 
 .flexCol--tipbar-text-item {
   margin-left: 16px;
+}
+
+.flexRow--all-cat-container,
+.flexRow--all-dog-container {
+  background-color: #ffd00b;
+  min-height: 515px;
+  display: flex;
+}
+
+.flexRow--all-cat-container {
+  background-color: #d33f33;
+}
+
+.flexRowContent--autlet-banners .stretchChildrenWidth {
+  max-width: 555px;
+}
+
+.flexCol--text-all-cat,
+.flexCol--text-all-dog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRowContent--text-all-dog .stretchChildrenWidth {
+  width: 80% !important;
+}
+
+.flexRowContent--text-all-cat .stretchChildrenWidth {
+  width: 60% !important;
+}
+
+.flexRow--text-all-cat,
+.flexRow--text-all-dog {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.flexRow--btn-banner-1 {
+  cursor: pointer;
+  background-color: #d33f33;
+  padding: 12px 32px;
+  border-radius: 8px;
+  position: absolute;
+  bottom: -30px;
+  right: 30px;
+}
+
+.flexRow--btn-banner-cat {
+  cursor: pointer;
+  padding: 12px 32px;
+  border-radius: 8px;
+  position: absolute;
+  background-color: #ffd00b;
+  right: 30px;
+  bottom: 45px;
 }

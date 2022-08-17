@@ -1,6 +1,6 @@
 {
   "flex-layout.row#main-banner": {
-		"title": "Main Banner",
+		"title": "Main Banners",
 		"children": [
 			"list-context.image-list#main-banner"
 		],
@@ -10,7 +10,7 @@
 	},
 
 	"list-context.image-list#main-banner": {
-		"title": "Main Banner Images",
+		"title": "Main Banners Images",
 		"children": [
 			"slider-layout#banners"
 		],
