@@ -6,7 +6,8 @@
       "__fold__",
       "flex-layout.row#banner",
       "flex-layout.row#banner-footer",
-      "flex-layout.row#brands"
+      "flex-layout.row#brands",
+      "flex-layout.row#contact"
     ]
   },
 
@@ -19,6 +20,7 @@
 
   "image#banner-dogs": {
     "props": {
+      "blockClass": "banner-dogs",
       "src": "assets/img/banner-home-footer.png"
     }
   }

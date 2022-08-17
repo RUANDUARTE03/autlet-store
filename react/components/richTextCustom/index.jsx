@@ -3,7 +3,7 @@ import { FormattedMessage } from 'react-intl';
 import * as S from './styles'
 
 export default function RichTextCustom(props) {
-  const { text, color, size, tagHTML, margin, textTransform, weight, colorBorder } = props;
+  const { text, color, size, tagHTML, margin, textTransform, weight, colorBorder, textAlign } = props;
 
   return (
     <S.RichText
@@ -13,6 +13,7 @@ export default function RichTextCustom(props) {
       margin={margin}
       textTransform={textTransform}
       colorBorder={colorBorder}
+      textAlign={textAlign}
     >
       <FormattedMessage id={text} />
     </S.RichText>
@@ -59,12 +60,17 @@ RichTextCustom.schema = {
     weight: {
       title: 'admin/richtextcustom.schema.properties.weight.title',
       type: 'string',
-      default: 'none',
+      default: '400',
     },
     colorBorder: {
       title: 'admin/richtextcustom.schema.properties.colorBorder.title',
       type: 'string',
       default: 'none',
+    },
+    textAlign: {
+      title: 'admin/richtextcustom.schema.properties.textAlign.title',
+      type: 'string',
+      default: 'left',
     },
   },
 };

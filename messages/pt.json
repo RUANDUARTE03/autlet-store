@@ -11,6 +11,7 @@
   "admin/richtextcustom.schema.properties.textTransform.description": "Qual a variação da sua fonte?",
   "admin/richtextcustom.schema.properties.weight.title": "Qual o peso da fonte?",
   "admin/richtextcustom.schema.properties.colorBorder.title": "Qual será a cor da borda do texto?",
+  "admin/richtextcustom.schema.properties.textAlign.title": "Qual será o alinhamento do texto?",
   "store/richtextcustom.topbar-track-back": "Rastrear pedido",
   "store/richtextcustom.topbar-whatsapp": "Whatsapp: (00) 99999-9999",
   "store/richtextcustom.topbar-help": "Ajuda e suporte",
@@ -23,5 +24,8 @@
   "store/richtextcustom.banner-title-1": "Tudo para seu",
   "store/richtextcustom.banner-description-1": "cachorro",
   "store/richtextcustom.banner-button-1": "Confira",
-  "store/richtextcustom.banner-description-2": "gato"
+  "store/richtextcustom.banner-description-2": "gato",
+  "store/richtextcustom.contact-title": "Cadastre-se e receba ofertas com preços exclusivos",
+  "store/richtextcustom.contact-description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+  "store/inputContact.placeholder": "Seu e-mail"
 }

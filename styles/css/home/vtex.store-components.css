@@ -2,3 +2,7 @@
   height: 35px;
   object-fit: contain;
 }
+
+.imageElement--banner-dogs {
+  width: 1270px;
+}

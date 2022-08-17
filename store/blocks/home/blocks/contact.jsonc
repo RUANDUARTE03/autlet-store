@@ -1,0 +1,53 @@
+{
+  "flex-layout.row#contact": {
+		"title": "Contact",
+    "props": {
+      "blockClass": "contact-content"
+    },
+    "children": [
+      "flex-layout.col#contact"
+    ]
+  },
+
+  "flex-layout.col#contact": {
+		"title": "Contact",
+    "children": [
+      "flex-layout.col#contact-text",
+      "custom-input-contact"
+    ]
+  },
+
+  "flex-layout.col#contact-text": {
+    "title": "Container Texts",
+    "props": {
+      "blockClass": "contact-text"
+    },
+    "children": [
+      "custom-rich-text#title",
+      "custom-rich-text#description"
+    ]
+  },
+
+  "custom-rich-text#title": {
+    "title": "Title Contact",
+    "props": {
+      "text": "store/richtextcustom.contact-title",
+      "color": "#FFF",
+      "margin": "0",
+      "size": "22px",
+      "textTransform": "uppercase",
+      "textAlign": "center"
+    }
+  },
+
+  "custom-rich-text#description": {
+    "title": "Description Contact",
+    "props": {
+      "text": "store/richtextcustom.contact-description",
+      "color": "#FFF",
+      "margin": "12px 0",
+      "size": "12px",
+      "textAlign": "center"
+    }
+  }
+}

@@ -3,6 +3,7 @@
   justify-content: center;
 }
 
+.flexRow--contact-content :global(.vtex-store-components-3-x-container),
 .flexRow--autlet-brands :global(.vtex-store-components-3-x-container),
 .flexRow--autlet-banners :global(.vtex-store-components-3-x-container) {
   width: 1270px;
@@ -28,6 +29,7 @@
   justify-content: center;
 }
 
+.flexRow--contact-content,
 .flexRow--autlet-brands,
 .flexRow--banner-home-footer,
 .flexRow--autlet-banners,
@@ -119,4 +121,12 @@
   background-color: #ffd00b;
   right: 30px;
   bottom: 45px;
+}
+
+.flexRowContent--contact-content {
+  background-image: url("assets/img/bg-contact.png");
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
