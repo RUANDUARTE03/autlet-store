@@ -12,3 +12,8 @@
 .paginationDotsContainer--autlet-main-banners .paginationDot--autlet-main-banners--isActive {
   background-color: #FFF;
 }
+
+.imageElement--autlet-brands {
+  height: 50px;
+  object-fit: contain;
+}

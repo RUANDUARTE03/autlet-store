@@ -2,7 +2,7 @@
   "flex-layout.row#banner": {
     "title": "Banners",
     "props": {
-      "horizontalAlign": "around",
+      "horizontalAlign": "between",
       "blockClass": "autlet-banners"
     },
     "children": ["flex-layout.row#all-dog-container", "flex-layout.row#all-cat-container"]

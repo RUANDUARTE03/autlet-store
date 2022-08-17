@@ -1,0 +1,56 @@
+{
+  "flex-layout.row#brands": {
+		"title": "Brands",
+		"children": [
+			"list-context.image-list#brands"
+		],
+		"props": {
+			"blockClass": "autlet-brands"
+		}
+	},
+
+	"list-context.image-list#brands": {
+		"title": "Brands Images",
+		"children": [
+			"slider-layout#brands"
+		],
+		"props": {
+			"images": [
+				{
+					"image": "assets/img/brand-1.png",
+					"mobileImage": "assets/img/brand-1.png"
+				},
+				{
+					"image": "assets/img/brand-2.png",
+					"mobileImage": "assets/img/brand-2.png"
+				},
+				{
+					"image": "assets/img/brand-3.png",
+					"mobileImage": "assets/img/brand-3.png"
+				},
+				{
+					"image": "assets/img/brand-4.png",
+					"mobileImage": "assets/img/brand-4.png"
+				}
+			]
+		}
+	},
+
+	"slider-layout#brands": {
+		"props": {
+			"blockClass": "autlet-brands",
+			"itemsPerPage": {
+				"desktop": 4,
+				"tablet": 2,
+				"phone": 1
+			},
+			"autoplay": {
+				"timeout": 3000,
+				"stopOnHover": true
+			},
+			"infinite": true
+			// "showPaginationDots": "always",
+			// "showNavigationArrows": "always"
+		}
+	}
+}

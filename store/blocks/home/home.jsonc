@@ -3,7 +3,23 @@
     "blocks": [
       "flex-layout.row#main-banner",
 			"flex-layout.row#tipbar-home",
-      "flex-layout.row#banner"
+      "__fold__",
+      "flex-layout.row#banner",
+      "flex-layout.row#banner-footer",
+      "flex-layout.row#brands"
     ]
+  },
+
+  "flex-layout.row#banner-footer": {
+    "props": {
+      "blockClass": "banner-home-footer"
+    },
+    "children": ["image#banner-dogs"]
+  },
+
+  "image#banner-dogs": {
+    "props": {
+      "src": "assets/img/banner-home-footer.png"
+    }
   }
 }
