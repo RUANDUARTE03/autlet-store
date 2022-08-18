@@ -1,0 +1,15 @@
+{
+  "menu-item#item-all": {
+    "props": {
+      "id": "departamentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": false,
+        "tagTitle": "Departamentos",
+        "text": "Departamentos"
+      }
+    }
+  }
+}

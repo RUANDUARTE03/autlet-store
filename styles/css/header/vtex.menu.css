@@ -1,0 +1,10 @@
+.menuContainer--main-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.styledLinkContent {
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 600;
+}

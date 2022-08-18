@@ -1,0 +1,11 @@
+.searchBarInnerContainer {
+  min-width: 660px;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+  border: none
+}
+
+.searchIcon {
+  color: #ffd00b;
+}

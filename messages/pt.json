@@ -38,5 +38,8 @@
   "store/richtextcustom.call-title": "Fale conosco",
   "store/richtextcustom.payment-title": "Pagamento",
   "store/richtextcustom.security-title": "Selos e Segurança",
-  "store/richtextcustom.number": "(00) 99999-9999"
+  "store/richtextcustom.number": "(00) 99999-9999",
+  "store/login.subtitle": "Entrar / Cadastrar",
+  "store/richtextcustom.minicart-title": "Sacola",
+  "store/richtextcustom.minicart-subtitle": "Itens"
 }

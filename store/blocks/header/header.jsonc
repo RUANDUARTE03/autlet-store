@@ -12,7 +12,11 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#topbar", "flex-layout.row#desktop"]
+    "children": [
+      "flex-layout.row#topbar",
+      "flex-layout.row#desktop",
+      "flex-layout.row#autlet-items-header"
+    ]
   },
   "flex-layout.row#desktop": {
     "props": {
@@ -20,16 +24,32 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "main-header-container"
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
-      "login",
+      "flex-layout.col#login",
       "minicart.v2"
     ]
+  },
+  "flex-layout.col#login": {
+    "title": "Login",
+    "props": {
+      "blockClass": "login-container"
+    },
+    "children": ["login", "custom-login"]
+  },
+  "login": {
+    "props": {
+      "blockClass": "login"
+    }
+  },
+  "search-bar": {
+    "props": {
+      "placeholder": "O que você deseja procurar?"
+    }
   },
   "flex-layout.col#spacer": {
     "props": {
@@ -38,16 +58,13 @@
   },
   "flex-layout.col#logo-desktop": {
     "props": {
-      "verticalAlign": "middle"
+      "blockClass": "container-logo"
     },
-    "children": ["logo"]
+    "children": ["image#logo"]
   },
-  "logo": {
+  "image#logo": {
     "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "src": "assets/img/logo.png"
     }
   },
   "header-layout.mobile": {
@@ -67,5 +84,13 @@
   },
   "drawer": {
     "children": []
+  },
+
+  "flex-layout.row#autlet-items-header": {
+    "children": ["vtex.menu@2.x:menu#category-menu"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "autlet-main-items-header"
+    }
   }
 }

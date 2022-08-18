@@ -1,0 +1,15 @@
+{
+  "menu-item#item1": {
+    "props": {
+      "id": "categoria",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "noFollow": false,
+        "tagTitle": "Categoria",
+        "text": "Categoria"
+      }
+    }
+  }
+}

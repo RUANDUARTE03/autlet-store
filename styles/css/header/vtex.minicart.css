@@ -1,0 +1,3 @@
+.minicartContainer :global(.vtex-button) {
+  background-color: transparent;
+}

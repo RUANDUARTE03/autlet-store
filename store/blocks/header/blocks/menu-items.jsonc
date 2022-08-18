@@ -1,0 +1,17 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": ["main-menu"]
+    },
+    "children": [
+      "menu-item#item-all",
+      "menu-item#item1",
+      "menu-item#item1",
+      "menu-item#item1",
+      "menu-item#item1",
+      "menu-item#item1",
+      "menu-item#item1"
+    ]
+  }
+}

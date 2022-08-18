@@ -1,0 +1,16 @@
+.flexCol--container-logo {
+  margin-top: -40px;
+}
+
+.flexCol--login-container .flexColChild--login-container:first-child {
+  display: none;
+  width: 0% !important
+}
+
+.flexRowContent--main-header-container {
+  justify-content: space-evenly;
+}
+
+.flexRow--autlet-main-items-header {
+  background-color: #BF1F13;
+}
