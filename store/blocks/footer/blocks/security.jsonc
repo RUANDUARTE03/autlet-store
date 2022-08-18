@@ -1,0 +1,51 @@
+{
+  "flex-layout.row#security": {
+    "title": "Security",
+    "props": {
+      "blockClass": "footer-security"
+    },
+    "children": ["flex-layout.col#security"]
+  },
+
+  "flex-layout.col#security": {
+    "title": "Security Column",
+    "props": {
+      "blockClass": "footer-security"
+    },
+    "children": ["custom-rich-text#title-security", "flex-layout.row#security-images"]
+  },
+
+  "custom-rich-text#title-security": {
+    "title": "Security Title",
+    "props": {
+      "text": "store/richtextcustom.security-title",
+      "color": "#FFF",
+      "size": "16px",
+      "weight": "700",
+      "textTransform": "uppercase",
+      "margin": "16px 0"
+    }
+  },
+
+  "flex-layout.row#security-images": {
+    "title": "Security Images",
+    "props": {
+      "blockClass": "footer-security"
+    },
+    "children": ["image#google", "image#jobs"]
+  },
+
+  "image#google": {
+    "props": {
+      "src": "assets/img/google.png"
+      // "blockClass": "image-payment"
+    }
+  },
+
+  "image#jobs": {
+    "props": {
+      "src": "assets/img/jobs.png"
+      // "blockClass": "image-payment"
+    }
+  }
+}

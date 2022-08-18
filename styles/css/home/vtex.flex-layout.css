@@ -3,10 +3,16 @@
   justify-content: center;
 }
 
-.flexRow--contact-content :global(.vtex-store-components-3-x-container),
 .flexRow--autlet-brands :global(.vtex-store-components-3-x-container),
 .flexRow--autlet-banners :global(.vtex-store-components-3-x-container) {
   width: 1270px;
+  padding: 0;
+  margin: 0;
+}
+
+.flexRow--contact-content :global(.vtex-store-components-3-x-container) {
+  width: 100%;
+  max-width: 100%;
   padding: 0;
   margin: 0;
 }

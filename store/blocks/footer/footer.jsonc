@@ -13,14 +13,14 @@
     ]
   },
   "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
-    }
+      "blockClass": "footer-autlet"
+    },
+    "children": [
+      "flex-layout.row#institutional",
+      "flex-layout.row#call",
+      "flex-layout.row#payment",
+      "flex-layout.row#security"
+    ]
   }
 }

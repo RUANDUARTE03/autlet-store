@@ -1,0 +1,103 @@
+{
+  "flex-layout.row#institutional": {
+    "title": "Institutional",
+    "props": {
+      "blockClass": "footer-institutional"
+    },
+    "children": ["flex-layout.col#institutional"]
+  },
+
+  "flex-layout.col#institutional": {
+    "title": "Institutional Column",
+    "props": {
+      "blockClass": "footer-institutional"
+    },
+    "children": [
+      "custom-rich-text#title-institutional",
+      "custom-rich-text#about-us",
+      "custom-rich-text#policy",
+      "custom-rich-text#doubts",
+      "custom-rich-text#shipping",
+      "custom-rich-text#exchanges",
+      "custom-rich-text#payments"
+    ]
+  },
+
+  "custom-rich-text#title-institutional": {
+    "title": "Institutional Title",
+    "props": {
+      "text": "store/richtextcustom.institutional-title",
+      "color": "#FFF",
+      "size": "16px",
+      "weight": "700",
+      "textTransform": "uppercase",
+      "margin": "16px 0"
+    }
+  },
+
+  "custom-rich-text#about-us": {
+    "title": "About Us Title",
+    "props": {
+      "text": "store/richtextcustom.about-us",
+      "color": "#FFF",
+      "margin": "6px 0",
+      "size": "16px",
+      "weight": "400"
+    }
+  },
+
+  "custom-rich-text#policy": {
+    "title": "Policy Title",
+    "props": {
+      "text": "store/richtextcustom.policy",
+      "color": "#FFF",
+      "margin": "6px 0",
+      "size": "16px",
+      "weight": "400"
+    }
+  },
+
+  "custom-rich-text#doubts": {
+    "title": "Doubts Title",
+    "props": {
+      "text": "store/richtextcustom.doubts",
+      "color": "#FFF",
+      "margin": "6px 0",
+      "size": "16px",
+      "weight": "400"
+    }
+  },
+
+  "custom-rich-text#shipping": {
+    "title": "Shipping Title",
+    "props": {
+      "text": "store/richtextcustom.shipping",
+      "color": "#FFF",
+      "margin": "6px 0",
+      "size": "16px",
+      "weight": "400"
+    }
+  },
+
+  "custom-rich-text#exchanges": {
+    "title": "Exchanges Title",
+    "props": {
+      "text": "store/richtextcustom.exchanges",
+      "color": "#FFF",
+      "margin": "6px 0",
+      "size": "16px",
+      "weight": "400"
+    }
+  },
+
+  "custom-rich-text#payments": {
+    "title": "Payments Title",
+    "props": {
+      "text": "store/richtextcustom.payments",
+      "color": "#FFF",
+      "margin": "6px 0",
+      "size": "16px",
+      "weight": "400"
+    }
+  }
+}

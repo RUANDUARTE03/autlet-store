@@ -1,0 +1,25 @@
+.flexRow--footer-call-images {
+  width: 80px;
+  margin-top: 32px;
+}
+
+.flexRowContent--footer-call-images .stretchChildrenWidth {
+  justify-content: flex-start;
+}
+
+.flexRowContent--footer-payment-methods {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 200px;
+}
+
+.flexRowContent--footer-security .stretchChildrenWidth,
+.flexRowContent--footer-payment-methods .stretchChildrenWidth {
+  width: 100% !important;
+  justify-content: flex-start;
+}
+
+.flexRow--footer-autlet {
+  height: 100%;
+  padding: 40px 120px 0;
+}

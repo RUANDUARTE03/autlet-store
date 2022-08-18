@@ -1,0 +1,110 @@
+{
+  "flex-layout.row#payment": {
+    "title": "Payment",
+    "props": {
+      "blockClass": "footer-payment"
+    },
+    "children": ["flex-layout.col#payment"]
+  },
+
+  "flex-layout.col#payment": {
+    "title": "Payment Column",
+    "props": {
+      "blockClass": "footer-payment"
+    },
+    "children": ["custom-rich-text#title-payment", "flex-layout.row#payment-methods"]
+  },
+
+  "custom-rich-text#title-payment": {
+    "title": "Payment Title",
+    "props": {
+      "text": "store/richtextcustom.payment-title",
+      "color": "#FFF",
+      "size": "16px",
+      "weight": "700",
+      "textTransform": "uppercase",
+      "margin": "16px 0"
+    }
+  },
+
+  "flex-layout.row#payment-methods": {
+    "title": "Payment Methods",
+    "props": {
+      "blockClass": "footer-payment-methods"
+    },
+    "children": [
+      "image#method-1",
+      "image#method-2",
+      "image#method-3",
+      "image#method-4",
+      "image#method-5",
+      "image#method-6",
+      "image#method-7",
+      "image#method-8",
+      "image#method-9"
+    ]
+  },
+
+  "image#method-1": {
+    "props": {
+      "src": "assets/img/payment-5.png",
+      "blockClass": "image-payment"
+    }
+  },
+
+  "image#method-2": {
+    "props": {
+      "src": "assets/img/payment-3.png",
+      "blockClass": "image-payment"
+    }
+  },
+
+  "image#method-3": {
+    "props": {
+      "src": "assets/img/payment-4.png",
+      "blockClass": "image-payment"
+    }
+  },
+
+  "image#method-4": {
+    "props": {
+      "src": "assets/img/payment-7.png",
+      "blockClass": "image-payment"
+    }
+  },
+
+  "image#method-5": {
+    "props": {
+      "src": "assets/img/payment-6.png",
+      "blockClass": "image-payment"
+    }
+  },
+
+  "image#method-6": {
+    "props": {
+      "src": "assets/img/payment-8.png",
+      "blockClass": "image-payment"
+    }
+  },
+
+  "image#method-7": {
+    "props": {
+      "src": "assets/img/payment-9.png",
+      "blockClass": "image-payment"
+    }
+  },
+
+  "image#method-8": {
+    "props": {
+      "src": "assets/img/payment-1.png",
+      "blockClass": "image-payment"
+    }
+  },
+
+  "image#method-9": {
+    "props": {
+      "src": "assets/img/payment-2.png",
+      "blockClass": "image-payment"
+    }
+  }
+}

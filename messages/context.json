@@ -27,5 +27,16 @@
   "store/richtextcustom.banner-description-2": "gato",
   "store/richtextcustom.contact-title": "Cadastre-se e receba ofertas com preços exclusivos",
   "store/richtextcustom.contact-description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
-  "store/inputContact.placeholder": "Seu e-mail"
+  "store/inputContact.placeholder": "Seu e-mail",
+  "store/richtextcustom.institutional-title": "Institucional",
+  "store/richtextcustom.about-us": "Sobre Nós",
+  "store/richtextcustom.policy": "Política de Privacidade",
+  "store/richtextcustom.doubts": "Dúvidas Frequentes",
+  "store/richtextcustom.shipping": "Frete e Entregas",
+  "store/richtextcustom.exchanges": "Trocas e devoluções",
+  "store/richtextcustom.payments": "Formas de Pagamento",
+  "store/richtextcustom.call-title": "Fale conosco",
+  "store/richtextcustom.payment-title": "Pagamento",
+  "store/richtextcustom.security-title": "Selos e Segurança",
+  "store/richtextcustom.number": "(00) 99999-9999"
 }

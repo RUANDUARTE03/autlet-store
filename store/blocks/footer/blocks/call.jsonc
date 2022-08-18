@@ -1,0 +1,65 @@
+{
+  "flex-layout.row#call": {
+    "title": "Call",
+    "props": {
+      "blockClass": "footer-call"
+    },
+    "children": ["flex-layout.col#call"]
+  },
+
+  "flex-layout.col#call": {
+    "title": "Call Column",
+    "props": {
+      "blockClass": "footer-call"
+    },
+    "children": [
+      "custom-rich-text#title-call",
+      "custom-rich-text#number",
+      "custom-rich-text#number",
+      "flex-layout.row#images-call"
+    ]
+  },
+
+  "custom-rich-text#title-call": {
+    "title": "Call Title",
+    "props": {
+      "text": "store/richtextcustom.call-title",
+      "color": "#FFF",
+      "size": "16px",
+      "weight": "700",
+      "textTransform": "uppercase",
+      "margin": "16px 0"
+    }
+  },
+
+  "custom-rich-text#number": {
+    "title": "Number",
+    "props": {
+      "text": "store/richtextcustom.number",
+      "color": "#FFF",
+      "margin": "6px 0",
+      "size": "16px",
+      "weight": "400"
+    }
+  },
+
+  "flex-layout.row#images-call": {
+    "title": "Call Images",
+    "props": {
+      "blockClass": "footer-call-images"
+    },
+    "children": ["image#face", "image#insta"]
+  },
+
+  "image#face": {
+    "props": {
+      "src": "assets/img/face.png"
+    }
+  },
+
+  "image#insta": {
+    "props": {
+      "src": "assets/img/insta.png"
+    }
+  }
+}
