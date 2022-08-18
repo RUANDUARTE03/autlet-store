@@ -1,0 +1,30 @@
+.nameContainer {
+  padding: 24px 0 8px;
+}
+
+.brandName {
+  color: #1E1E1E;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 8px 0 0;
+}
+
+.priceContainer {
+  padding: 0;
+}
+
+.priceContainer .currencyContainer {
+  color: #D33F33;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+:global(.vtex-product-price-1-x-installments) {
+  padding: 4px 0 0;
+}
+
+:global(.vtex-product-price-1-x-installmentsNumber),
+:global(.vtex-product-price-1-x-installmentValue) {
+  color: #F9B00D;
+}

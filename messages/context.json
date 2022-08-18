@@ -41,5 +41,6 @@
   "store/richtextcustom.number": "(00) 99999-9999",
   "store/login.subtitle": "Entrar / Cadastrar",
   "store/richtextcustom.minicart-title": "Sacola",
-  "store/richtextcustom.minicart-subtitle": "Itens"
+  "store/richtextcustom.minicart-subtitle": "Itens",
+  "store/richtextcustom.shelf-title": "Destaques"
 }

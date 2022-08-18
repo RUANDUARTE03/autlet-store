@@ -1,0 +1,10 @@
+{
+  "product-summary.shelf#home": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "product-installments"
+    ]
+  } 
+}

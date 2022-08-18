@@ -4,8 +4,11 @@
       "flex-layout.row#main-banner",
 			"flex-layout.row#tipbar-home",
       "__fold__",
+      "flex-layout.row#autlet-shelf-home",
       "flex-layout.row#banner",
+      "flex-layout.row#autlet-shelf-home",
       "flex-layout.row#banner-footer",
+      "__fold__",
       "flex-layout.row#brands",
       "flex-layout.row#contact"
     ]
