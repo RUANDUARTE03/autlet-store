@@ -1,4 +1,7 @@
 {
+  "vendor": "jobspace",
+  "name": "store-theme",
+  "version": "8.0.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
